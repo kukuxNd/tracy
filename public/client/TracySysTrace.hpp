@@ -4,7 +4,7 @@
 #if !defined TRACY_NO_SYSTEM_TRACING && ( defined _WIN32 || defined __linux__ )
 #  include "../common/TracyUwp.hpp"
 #  ifndef TRACY_UWP
-#    define TRACY_HAS_SYSTEM_TRACING
+//#    define TRACY_HAS_SYSTEM_TRACING
 #  endif
 #endif
 
